@@ -58,7 +58,7 @@ fun AddTaskScreen(dbHelper: DatabaseHelper, onSave: (Intent) -> Unit) {
     val context = LocalContext.current
     val isDarkTheme = isSystemInDarkTheme()
 
-    // Obtener la fecha y hora actuales para los diálogos
+    // Obtener la fecha y hora actuales
     val calendar = Calendar.getInstance()
 
     // Diálogo para seleccionar la fecha
